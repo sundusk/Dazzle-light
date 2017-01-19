@@ -16,6 +16,7 @@
 		C2DA80EF1E2F800E00A288BD /* CCQUserFeedBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DA80EE1E2F800E00A288BD /* CCQUserFeedBackViewController.m */; };
 		C2DA80F21E2F803A00A288BD /* CCQPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DA80F11E2F803A00A288BD /* CCQPlaceholderTextView.m */; };
 		C2DA80F51E2F805500A288BD /* CCQPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DA80F41E2F805500A288BD /* CCQPhotoCollectionViewCell.m */; };
+		D0366B4C6578A4D532C6757F /* libPods-DazzleLight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6968BA94A540ADC4F71AF8F /* libPods-DazzleLight.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,9 @@
 		C2DA80F11E2F803A00A288BD /* CCQPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCQPlaceholderTextView.m; sourceTree = "<group>"; };
 		C2DA80F31E2F805500A288BD /* CCQPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCQPhotoCollectionViewCell.h; sourceTree = "<group>"; };
 		C2DA80F41E2F805500A288BD /* CCQPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCQPhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		E746212F1337C06B82C8F2B2 /* Pods-DazzleLight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DazzleLight.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DazzleLight/Pods-DazzleLight.debug.xcconfig"; sourceTree = "<group>"; };
+		F6968BA94A540ADC4F71AF8F /* libPods-DazzleLight.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DazzleLight.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF9826E3601A974C9326A51 /* Pods-DazzleLight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DazzleLight.release.xcconfig"; path = "Pods/Target Support Files/Pods-DazzleLight/Pods-DazzleLight.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,12 +46,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0366B4C6578A4D532C6757F /* libPods-DazzleLight.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4BF67CA08342B463A07DBFD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6968BA94A540ADC4F71AF8F /* libPods-DazzleLight.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B09B60E6BB4D63ACB09B5BE5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E746212F1337C06B82C8F2B2 /* Pods-DazzleLight.debug.xcconfig */,
+				FAF9826E3601A974C9326A51 /* Pods-DazzleLight.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C25D513F1E2F5FD000C735A1 /* Alipay */ = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +82,8 @@
 			children = (
 				C27ACEEF1DC73C1400B2B0A3 /* DazzleLight */,
 				C27ACEEE1DC73C1400B2B0A3 /* Products */,
+				B09B60E6BB4D63ACB09B5BE5 /* Pods */,
+				4BF67CA08342B463A07DBFD1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,9 +142,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C27ACF041DC73C1400B2B0A3 /* Build configuration list for PBXNativeTarget "DazzleLight" */;
 			buildPhases = (
+				37CB5817D7E568A46FBDAA61 /* [CP] Check Pods Manifest.lock */,
 				C27ACEE91DC73C1400B2B0A3 /* Sources */,
 				C27ACEEA1DC73C1400B2B0A3 /* Frameworks */,
 				C27ACEEB1DC73C1400B2B0A3 /* Resources */,
+				96C186610D7C0A33EAEE1DC5 /* [CP] Embed Pods Frameworks */,
+				51F1D0622E244B2740C0BD45 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,6 +204,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37CB5817D7E568A46FBDAA61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		51F1D0622E244B2740C0BD45 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DazzleLight/Pods-DazzleLight-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96C186610D7C0A33EAEE1DC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DazzleLight/Pods-DazzleLight-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C27ACEE91DC73C1400B2B0A3 /* Sources */ = {
@@ -304,6 +379,7 @@
 		};
 		C27ACF051DC73C1400B2B0A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E746212F1337C06B82C8F2B2 /* Pods-DazzleLight.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HCPQ4JRW53;
@@ -316,6 +392,7 @@
 		};
 		C27ACF061DC73C1400B2B0A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAF9826E3601A974C9326A51 /* Pods-DazzleLight.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HCPQ4JRW53;
