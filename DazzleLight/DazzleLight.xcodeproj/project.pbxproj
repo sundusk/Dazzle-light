@@ -13,6 +13,9 @@
 		C27ACEFB1DC73C1400B2B0A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C27ACEF91DC73C1400B2B0A3 /* Main.storyboard */; };
 		C27ACEFD1DC73C1400B2B0A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C27ACEFC1DC73C1400B2B0A3 /* Assets.xcassets */; };
 		C27ACF001DC73C1400B2B0A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C27ACEFE1DC73C1400B2B0A3 /* LaunchScreen.storyboard */; };
+		C2DA80EF1E2F800E00A288BD /* CCQUserFeedBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DA80EE1E2F800E00A288BD /* CCQUserFeedBackViewController.m */; };
+		C2DA80F21E2F803A00A288BD /* CCQPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DA80F11E2F803A00A288BD /* CCQPlaceholderTextView.m */; };
+		C2DA80F51E2F805500A288BD /* CCQPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DA80F41E2F805500A288BD /* CCQPhotoCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		C27ACEFC1DC73C1400B2B0A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C27ACEFF1DC73C1400B2B0A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C27ACF011DC73C1400B2B0A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2DA80ED1E2F800E00A288BD /* CCQUserFeedBackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCQUserFeedBackViewController.h; sourceTree = "<group>"; };
+		C2DA80EE1E2F800E00A288BD /* CCQUserFeedBackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCQUserFeedBackViewController.m; sourceTree = "<group>"; };
+		C2DA80F01E2F803A00A288BD /* CCQPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCQPlaceholderTextView.h; sourceTree = "<group>"; };
+		C2DA80F11E2F803A00A288BD /* CCQPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCQPlaceholderTextView.m; sourceTree = "<group>"; };
+		C2DA80F31E2F805500A288BD /* CCQPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCQPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		C2DA80F41E2F805500A288BD /* CCQPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCQPhotoCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +74,7 @@
 		C27ACEEF1DC73C1400B2B0A3 /* DazzleLight */ = {
 			isa = PBXGroup;
 			children = (
+				C2DA80E91E2F7F6600A288BD /* UserFeedback */,
 				C25D513F1E2F5FD000C735A1 /* Alipay */,
 				C27ACEF31DC73C1400B2B0A3 /* AppDelegate.h */,
 				C27ACEF41DC73C1400B2B0A3 /* AppDelegate.m */,
@@ -85,6 +95,19 @@
 				C27ACEF11DC73C1400B2B0A3 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2DA80E91E2F7F6600A288BD /* UserFeedback */ = {
+			isa = PBXGroup;
+			children = (
+				C2DA80ED1E2F800E00A288BD /* CCQUserFeedBackViewController.h */,
+				C2DA80EE1E2F800E00A288BD /* CCQUserFeedBackViewController.m */,
+				C2DA80F01E2F803A00A288BD /* CCQPlaceholderTextView.h */,
+				C2DA80F11E2F803A00A288BD /* CCQPlaceholderTextView.m */,
+				C2DA80F31E2F805500A288BD /* CCQPhotoCollectionViewCell.h */,
+				C2DA80F41E2F805500A288BD /* CCQPhotoCollectionViewCell.m */,
+			);
+			path = UserFeedback;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,8 +182,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2DA80EF1E2F800E00A288BD /* CCQUserFeedBackViewController.m in Sources */,
 				C27ACEF81DC73C1400B2B0A3 /* ViewController.m in Sources */,
 				C27ACEF51DC73C1400B2B0A3 /* AppDelegate.m in Sources */,
+				C2DA80F51E2F805500A288BD /* CCQPhotoCollectionViewCell.m in Sources */,
+				C2DA80F21E2F803A00A288BD /* CCQPlaceholderTextView.m in Sources */,
 				C27ACEF21DC73C1400B2B0A3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
