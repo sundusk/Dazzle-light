@@ -37,5 +37,18 @@
 
     return 10;
 }
-
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    NSInteger section = indexPath.section;
+    NSInteger row = indexPath.row;
+    
+    UITableViewCell *cell = [[UITableViewCell alloc]init];
+    
+    //给cell里的文本标签设置文字内容
+    cell.textLabel.text = [NSString stringWithFormat:@"我是第%zd组第%zd行的数据",section,row];
+    
+    //    cell.backgroundColor = [UIColor grayColor];
+    //    cell.backgroundColor = [UIColor clearColor];
+    
+    return cell;
+}
 @end
