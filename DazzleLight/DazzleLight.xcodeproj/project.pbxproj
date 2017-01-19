@@ -74,7 +74,7 @@
 		C27ACEEF1DC73C1400B2B0A3 /* DazzleLight */ = {
 			isa = PBXGroup;
 			children = (
-				C2DA80E91E2F7F6600A288BD /* UserFeedback */,
+				C2DA80E91E2F7F6600A288BD /* UserFeedback(意见反馈) */,
 				C25D513F1E2F5FD000C735A1 /* Alipay */,
 				C27ACEF31DC73C1400B2B0A3 /* AppDelegate.h */,
 				C27ACEF41DC73C1400B2B0A3 /* AppDelegate.m */,
@@ -97,7 +97,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C2DA80E91E2F7F6600A288BD /* UserFeedback */ = {
+		C2DA80E91E2F7F6600A288BD /* UserFeedback(意见反馈) */ = {
 			isa = PBXGroup;
 			children = (
 				C2DA80ED1E2F800E00A288BD /* CCQUserFeedBackViewController.h */,
@@ -107,6 +107,7 @@
 				C2DA80F31E2F805500A288BD /* CCQPhotoCollectionViewCell.h */,
 				C2DA80F41E2F805500A288BD /* CCQPhotoCollectionViewCell.m */,
 			);
+			name = "UserFeedback(意见反馈)";
 			path = UserFeedback;
 			sourceTree = "<group>";
 		};
