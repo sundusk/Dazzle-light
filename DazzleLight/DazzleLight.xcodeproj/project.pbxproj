@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C202E5CA1E3075DF00EAEAE5 /* CCQMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C202E5C91E3075DF00EAEAE5 /* CCQMainTableViewController.m */; };
 		C27ACEF21DC73C1400B2B0A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C27ACEF11DC73C1400B2B0A3 /* main.m */; };
 		C27ACEF51DC73C1400B2B0A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C27ACEF41DC73C1400B2B0A3 /* AppDelegate.m */; };
 		C27ACEF81DC73C1400B2B0A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C27ACEF71DC73C1400B2B0A3 /* ViewController.m */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C202E5C81E3075DF00EAEAE5 /* CCQMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCQMainTableViewController.h; sourceTree = "<group>"; };
+		C202E5C91E3075DF00EAEAE5 /* CCQMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCQMainTableViewController.m; sourceTree = "<group>"; };
 		C27ACEED1DC73C1400B2B0A3 /* DazzleLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DazzleLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C27ACEF11DC73C1400B2B0A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C27ACEF31DC73C1400B2B0A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -104,6 +107,8 @@
 				C27ACEF41DC73C1400B2B0A3 /* AppDelegate.m */,
 				C27ACEF61DC73C1400B2B0A3 /* ViewController.h */,
 				C27ACEF71DC73C1400B2B0A3 /* ViewController.m */,
+				C202E5C81E3075DF00EAEAE5 /* CCQMainTableViewController.h */,
+				C202E5C91E3075DF00EAEAE5 /* CCQMainTableViewController.m */,
 				C27ACEF91DC73C1400B2B0A3 /* Main.storyboard */,
 				C27ACEFC1DC73C1400B2B0A3 /* Assets.xcassets */,
 				C27ACEFE1DC73C1400B2B0A3 /* LaunchScreen.storyboard */,
@@ -259,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2DA80EF1E2F800E00A288BD /* CCQUserFeedBackViewController.m in Sources */,
+				C202E5CA1E3075DF00EAEAE5 /* CCQMainTableViewController.m in Sources */,
 				C27ACEF81DC73C1400B2B0A3 /* ViewController.m in Sources */,
 				C27ACEF51DC73C1400B2B0A3 /* AppDelegate.m in Sources */,
 				C2DA80F51E2F805500A288BD /* CCQPhotoCollectionViewCell.m in Sources */,
