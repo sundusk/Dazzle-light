@@ -73,7 +73,7 @@
         i++;
         void *buffer = malloc(bufferSize);
         size_t numBytesDecrypted = 0;
-        CCCryptorStatus cryptStatus = CCCrypt(kCCEncrypt, kCCAlgorithmAES128, 0,
+        CCCryptorStatus cryptStatus = CCCrypt(kCCEncrypt, kCCAlgorithmAES128, kCCOptionECBMode,
                                               keyPtr, kCCKeySizeAES128,
                                               NULL,
                                               [[mutableData subdataWithRange:NSMakeRange(start, bufferSize)] bytes], bufferSize,
