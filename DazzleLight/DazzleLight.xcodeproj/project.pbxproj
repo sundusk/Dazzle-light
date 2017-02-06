@@ -30,6 +30,11 @@
 		C22EA5381E3311A200ADBC32 /* UIScreen+HMObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C22EA52B1E3311A200ADBC32 /* UIScreen+HMObjcSugar.m */; };
 		C22EA5391E3311A200ADBC32 /* UITextField+HMObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C22EA52D1E3311A200ADBC32 /* UITextField+HMObjcSugar.m */; };
 		C22EA53A1E3311A200ADBC32 /* UIView+HMObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C22EA52F1E3311A200ADBC32 /* UIView+HMObjcSugar.m */; };
+		C251112A1E48806800B654D8 /* NSData+AES128.m in Sources */ = {isa = PBXBuildFile; fileRef = C25111211E48806800B654D8 /* NSData+AES128.m */; };
+		C251112B1E48806800B654D8 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = C25111231E48806800B654D8 /* NSString+Hash.m */; };
+		C251112C1E48806800B654D8 /* UIButton+BDLiveAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = C25111251E48806800B654D8 /* UIButton+BDLiveAddition.m */; };
+		C251112D1E48806800B654D8 /* UIColor+BDLiveAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = C25111271E48806800B654D8 /* UIColor+BDLiveAddition.m */; };
+		C251112E1E48806800B654D8 /* UIViewController+BDLiveAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = C25111291E48806800B654D8 /* UIViewController+BDLiveAddition.m */; };
 		C27ACEF21DC73C1400B2B0A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C27ACEF11DC73C1400B2B0A3 /* main.m */; };
 		C27ACEF51DC73C1400B2B0A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C27ACEF41DC73C1400B2B0A3 /* AppDelegate.m */; };
 		C27ACEF81DC73C1400B2B0A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C27ACEF71DC73C1400B2B0A3 /* ViewController.m */; };
@@ -89,6 +94,17 @@
 		C22EA52D1E3311A200ADBC32 /* UITextField+HMObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+HMObjcSugar.m"; sourceTree = "<group>"; };
 		C22EA52E1E3311A200ADBC32 /* UIView+HMObjcSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HMObjcSugar.h"; sourceTree = "<group>"; };
 		C22EA52F1E3311A200ADBC32 /* UIView+HMObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HMObjcSugar.m"; sourceTree = "<group>"; };
+		C251111F1E48806800B654D8 /* BDLiveAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDLiveAdditions.h; sourceTree = "<group>"; };
+		C25111201E48806800B654D8 /* NSData+AES128.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES128.h"; sourceTree = "<group>"; };
+		C25111211E48806800B654D8 /* NSData+AES128.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES128.m"; sourceTree = "<group>"; };
+		C25111221E48806800B654D8 /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		C25111231E48806800B654D8 /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
+		C25111241E48806800B654D8 /* UIButton+BDLiveAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+BDLiveAddition.h"; sourceTree = "<group>"; };
+		C25111251E48806800B654D8 /* UIButton+BDLiveAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BDLiveAddition.m"; sourceTree = "<group>"; };
+		C25111261E48806800B654D8 /* UIColor+BDLiveAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BDLiveAddition.h"; sourceTree = "<group>"; };
+		C25111271E48806800B654D8 /* UIColor+BDLiveAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BDLiveAddition.m"; sourceTree = "<group>"; };
+		C25111281E48806800B654D8 /* UIViewController+BDLiveAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BDLiveAddition.h"; sourceTree = "<group>"; };
+		C25111291E48806800B654D8 /* UIViewController+BDLiveAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BDLiveAddition.m"; sourceTree = "<group>"; };
 		C27ACEED1DC73C1400B2B0A3 /* DazzleLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DazzleLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C27ACEF11DC73C1400B2B0A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C27ACEF31DC73C1400B2B0A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -213,6 +229,24 @@
 			path = ObjcSugar;
 			sourceTree = "<group>";
 		};
+		C251111E1E48806800B654D8 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				C251111F1E48806800B654D8 /* BDLiveAdditions.h */,
+				C25111201E48806800B654D8 /* NSData+AES128.h */,
+				C25111211E48806800B654D8 /* NSData+AES128.m */,
+				C25111221E48806800B654D8 /* NSString+Hash.h */,
+				C25111231E48806800B654D8 /* NSString+Hash.m */,
+				C25111241E48806800B654D8 /* UIButton+BDLiveAddition.h */,
+				C25111251E48806800B654D8 /* UIButton+BDLiveAddition.m */,
+				C25111261E48806800B654D8 /* UIColor+BDLiveAddition.h */,
+				C25111271E48806800B654D8 /* UIColor+BDLiveAddition.m */,
+				C25111281E48806800B654D8 /* UIViewController+BDLiveAddition.h */,
+				C25111291E48806800B654D8 /* UIViewController+BDLiveAddition.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
 		C25D513F1E2F5FD000C735A1 /* Alipay */ = {
 			isa = PBXGroup;
 			children = (
@@ -241,6 +275,7 @@
 		C27ACEEF1DC73C1400B2B0A3 /* DazzleLight */ = {
 			isa = PBXGroup;
 			children = (
+				C251111E1E48806800B654D8 /* Additions */,
 				C22EA5181E3311A200ADBC32 /* ObjcSugar */,
 				C22EA4F41E31C3E400ADBC32 /* HCSortAndSearch */,
 				C2DA80E91E2F7F6600A288BD /* UserFeedback(意见反馈) */,
@@ -408,9 +443,11 @@
 			files = (
 				C22EA5141E31C3E400ADBC32 /* PinyinHelper.m in Sources */,
 				C22EA5371E3311A200ADBC32 /* UINavigationController+HMObjcSugar.m in Sources */,
+				C251112C1E48806800B654D8 /* UIButton+BDLiveAddition.m in Sources */,
 				C22EA5341E3311A200ADBC32 /* UIColor+HMObjcSugar.m in Sources */,
 				C2DA80EF1E2F800E00A288BD /* CCQUserFeedBackViewController.m in Sources */,
 				C202E5CA1E3075DF00EAEAE5 /* CCQMainTableViewController.m in Sources */,
+				C251112A1E48806800B654D8 /* NSData+AES128.m in Sources */,
 				C22EA5311E3311A200ADBC32 /* NSDate+HMObjcSugar.m in Sources */,
 				C22EA5351E3311A200ADBC32 /* UIImage+HMObjcSugar.m in Sources */,
 				C22EA5381E3311A200ADBC32 /* UIScreen+HMObjcSugar.m in Sources */,
@@ -418,6 +455,7 @@
 				C27ACEF81DC73C1400B2B0A3 /* ViewController.m in Sources */,
 				C22EA50C1E31C3E400ADBC32 /* HCSortString.m in Sources */,
 				C22EA5391E3311A200ADBC32 /* UITextField+HMObjcSugar.m in Sources */,
+				C251112B1E48806800B654D8 /* NSString+Hash.m in Sources */,
 				C27ACEF51DC73C1400B2B0A3 /* AppDelegate.m in Sources */,
 				C2DA80F51E2F805500A288BD /* CCQPhotoCollectionViewCell.m in Sources */,
 				C22EA5101E31C3E400ADBC32 /* HanyuPinyinOutputFormat.m in Sources */,
@@ -432,7 +470,9 @@
 				C22EA5161E31C3E400ADBC32 /* ZYPinYinSearch.m in Sources */,
 				C22EA5121E31C3E400ADBC32 /* PinyinFormatter.m in Sources */,
 				C27ACEF21DC73C1400B2B0A3 /* main.m in Sources */,
+				C251112D1E48806800B654D8 /* UIColor+BDLiveAddition.m in Sources */,
 				C22EA5361E3311A200ADBC32 /* UILabel+HMObjcSugar.m in Sources */,
+				C251112E1E48806800B654D8 /* UIViewController+BDLiveAddition.m in Sources */,
 				C22EA5111E31C3E400ADBC32 /* NSString+PinYin4Cocoa.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
