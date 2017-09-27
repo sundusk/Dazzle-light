@@ -1,0 +1,22 @@
+platform :ios, '9.0'
+
+target 'QwQ' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for QwQ
+
+  target 'QwQTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'QwQUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+
+pod 'SnapKit'
+
+end
